@@ -1,0 +1,64 @@
+*{
+  margin:0;
+  padding:0;
+  
+}
+
+button {
+  background-color: blueviolet;
+  color:white;
+  
+  font-size: 20px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+.one{
+  
+  font-size: 20px;
+  padding: 5px;
+  
+}
+
+table{
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+div{
+  margin-top:20px;
+  text-align: center;
+}
+
+.delete-btn{
+  background-color: red;
+  font-size:medium;
+  
+  
+
+}
+
+.header-cell {
+  padding: 8px 16px; 
+}
+
+.add-todo{
+  border-style: solid black;
+  background-color:aqua;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+
+}
+table{
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: bisque;
+}
+
+
+
