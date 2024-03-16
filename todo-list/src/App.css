@@ -1,64 +1,32 @@
-*{
-  margin:0;
-  padding:0;
-  
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-button {
-  background-color: blueviolet;
-  color:white;
-  
-  font-size: 20px;
-  height: 40px;
-  padding: 5px;
-  border-radius: 5px;
-  
-}
-.one{
-  
-  font-size: 20px;
-  padding: 5px;
-  
-}
-
-table{
-  font-size: 20px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-div{
-  margin-top:20px;
-  text-align: center;
-}
-
-.delete-btn{
-  background-color: red;
-  font-size:medium;
-  
-  
-
-}
-
-.header-cell {
-  padding: 8px 16px; 
-}
-
-.add-todo{
-  border-style: solid black;
-  background-color:aqua;
-  display: inline-block;
-  padding: 20px;
-  border-radius: 10px;
-  border: 2px solid black;
-
-}
-table{
-  margin-top: 20px;
-  border: 2px solid black;
-  border-radius: 10px;
-  background-color: bisque;
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
 
+
+.ag-theme-material .ag-header-cell {
+  background-color: #f0f0f0; 
+  font-weight: bold; 
+}
+
+.ag-theme-material .ag-header-cell-text {
+  color: #333; 
+}
+
+.ag-theme-material .ag-cell {
+  border-bottom: 1px solid #ddd; 
+}
+
+.ag-theme-material .ag-cell-text {
+  color: #555; 
+}
 
